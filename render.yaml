@@ -18,6 +18,11 @@ services:
         sync: false
       - key: DATABASE_URL
         sync: false
+      - key: SITE_URL
+        value: "https://<YOUR_RENDER_SERVICE>.onrender.com"
+        sync: false
+      - key: RENDER_API_KEY
+        sync: false
       - key: DARAJA_CONSUMER_KEY
         sync: false
       - key: DARAJA_CONSUMER_SECRET
